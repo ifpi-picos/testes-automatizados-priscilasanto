@@ -10,7 +10,7 @@ describe("Testando classe ContaBancaria", () => {
 
   test("Testando depositar valor positivo", () => {
     conta.depositar(100);
-    expect(conta.consultarSaldo()).toBe(100);asidhauishdajsdhausdasdasdasdasd
+    expect(conta.consultarSaldo()).toBe(100);
   });
 
   test("Testando depositar valor negativo", () => {
